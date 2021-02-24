@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val btCalcular: Button = botaoCalcular
-        val btSair: Button = sair
+        val btSair: Button = sair1
 
         btCalcular.setOnClickListener {
             val notaUm: Int = Integer.parseInt(nota1.text.toString())
